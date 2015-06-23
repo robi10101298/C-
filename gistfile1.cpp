@@ -1,8 +1,9 @@
 #include <iostream>
+using namespace std;
 int main()
 {
   //comm nou
-int n,m,p,i,j,k,a[10][10],b[10][10],c[10][10];
+int n,m,p,i,j,k,a[10][10],b[10][10],c[10][10] = {0};
 cout<<"Dati numarul de linii n = ";cin>>n;
 cout<<"Dati numarul de coloane m = ";cin>>m;
 for(i=1;i<=n;i++)
